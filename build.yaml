@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      my_builder:
+        options:
+          prf: msh
+        dev_options:
+          prf: local
+        generate_for:
+          include:
+            - lib/data/data.json
