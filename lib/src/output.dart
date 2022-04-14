@@ -1,0 +1,1 @@
+int myMethod() { return 4; }
